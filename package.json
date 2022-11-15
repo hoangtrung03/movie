@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@tailwindcss/line-clamp": "^0.4.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
     "@testing-library/user-event": "^13.2.1",
@@ -11,13 +10,10 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "@types/react-router-dom": "^5.3.3",
-    "axios": "^1.1.3",
-    "eslint-config-airbnb-typescript": "^17.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^2.1.3",
-    "typescript": "*",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.4.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
@@ -47,13 +43,10 @@
       "last 1 safari version"
     ]
   },
-  "main": "index.js",
-  "author": "vuhoangtrungbin0303 <hoangtrung@mobcec.com>",
-  "license": "MIT",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "autoprefixer": "^10.4.13",
     "eslint": "^8.0.1",
+    "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard-with-typescript": "^23.0.0",
     "eslint-plugin-import": "^2.25.2",
@@ -61,8 +54,7 @@
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.31.10",
-    "postcss": "^8.4.19",
     "prettier": "^2.7.1",
-    "tailwindcss": "^3.2.4"
+    "prettier-eslint": "^15.0.1"
   }
 }
